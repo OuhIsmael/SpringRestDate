@@ -7,7 +7,8 @@ import java.time.LocalTime;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 public class RestDate implements Serializable {
-
+//TODO investigate about Project Lombok(lombok) you can remove hashCode, equals and all setters and getters and contst in this class with 4 annotations
+	//After reading about it implement them here
 	private static final long serialVersionUID = -9011561419084189907L;
 	
 	@JsonFormat(pattern="dd/MM/yyyy")

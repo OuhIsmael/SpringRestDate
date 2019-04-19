@@ -10,6 +10,7 @@ import com.ictcg.SpringRestDate.model.RestDate;
 @Service
 public class RestDateServiceImpl implements RestDateService {
 
+	//TODO Add attribute isUS, if it is true you will send response in am/pm format
 	@Override
 	public RestDate getRestDate() {
 		RestDate restDate = new RestDate();
